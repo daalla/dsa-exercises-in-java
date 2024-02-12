@@ -34,6 +34,7 @@ public class Exercise75MergeSortedArrays {
     private void mergeSecondArray() {
         if (filterIndex >= mergedArray.size()) {
             mergedArray.addAll(secondArrayCopy);
+            secondArrayCopy.clear();
         } else if (secondArrayCopy.get(0) <= mergedArray.get(filterIndex)) {
             mergedArray.add(filterIndex, secondArrayCopy.get(0));
             secondArrayCopy.remove(0);
