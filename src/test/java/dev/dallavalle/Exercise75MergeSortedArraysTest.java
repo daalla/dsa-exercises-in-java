@@ -27,6 +27,16 @@ class Exercise75MergeSortedArraysTest {
     }
 
     @Test
+    void mergeSortedArrays_EmptyFirstArray_ReturnsSecondArrayValues() {
+        List<Integer> firstArray = List.of();
+        List<Integer> secondArray = List.of(4, 6, 30);
+
+        List<Integer> returnedArray = exercise75.mergeSortedArrays(firstArray, secondArray);
+
+        assertEquals(secondArray, returnedArray);
+    }
+
+    @Test
     void mergeSortedArrays_EmptySecondArray_ReturnsFirstArrayValues() {
         List<Integer> firstArray = List.of(0, 3, 4, 31);
         List<Integer> secondArray = List.of();
