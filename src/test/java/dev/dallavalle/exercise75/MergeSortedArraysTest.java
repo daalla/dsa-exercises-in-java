@@ -1,4 +1,4 @@
-package dev.dallavalle;
+package dev.dallavalle.exercise75;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -7,12 +7,12 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Exercise75MergeSortedArraysTest {
-    private Exercise75MergeSortedArrays exercise75;
+class MergeSortedArraysTest {
+    private MergeSortedArrays exercise75;
 
     @BeforeEach
     void initializeClassUnderTest() {
-        exercise75 = new Exercise75MergeSortedArrays();
+        exercise75 = new MergeSortedArrays();
     }
 
     @Test

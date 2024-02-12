@@ -1,4 +1,4 @@
-package dev.dallavalle;
+package dev.dallavalle.exercise75;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
  * Time complexity: O(n * m)
  * Space complexity: O(n + m)
  */
-public class Exercise75MergeSortedArrays {
+public class MergeSortedArrays {
     private int filterIndex;
     private List<Integer> mergedArray;
     private List<Integer> secondArrayCopy;

@@ -1,4 +1,4 @@
-package dev.dallavalle;
+package dev.dallavalle.exercise73;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
  * Exercise instructions: "Create a function that reverses a string"
  * ChatGPT review of my solution: https://chat.openai.com/c/474bd526-57d4-488d-be97-801268513594
  */
-public class Exercise73ReverseAString {
+public class ReverseAString {
     public String reverse(String stringToReverse) {
         List<Character> reversedStringAsList = getReversedStringAsList(stringToReverse);
         return convertListToString(reversedStringAsList);

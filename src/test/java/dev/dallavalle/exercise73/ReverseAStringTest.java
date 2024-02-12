@@ -1,15 +1,15 @@
-package dev.dallavalle;
+package dev.dallavalle.exercise73;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Exercise73ReverseAStringTest {
+class ReverseAStringTest {
     @Test
     void reverse_ValidString_ReturnsReversedString() {
         String testString = "Hi, my name is Andrei";
         String expectedString = "ierdnA si eman ym ,iH";
-        Exercise73ReverseAString exercise73 = new Exercise73ReverseAString();
+        ReverseAString exercise73 = new ReverseAString();
 
         String returnedString = exercise73.reverse(testString);
 
