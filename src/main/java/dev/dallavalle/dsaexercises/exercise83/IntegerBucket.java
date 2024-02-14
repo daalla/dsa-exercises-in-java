@@ -1,4 +1,4 @@
-package dev.dallavalle.exercise83;
+package dev.dallavalle.dsaexercises.exercise83;
 
 public class IntegerBucket {
     private String key;

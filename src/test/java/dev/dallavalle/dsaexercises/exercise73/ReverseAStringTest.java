@@ -1,8 +1,8 @@
-package dev.dallavalle.exercise73;
-
-import org.junit.jupiter.api.Test;
+package dev.dallavalle.dsaexercises.exercise73;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 class ReverseAStringTest {
     @Test

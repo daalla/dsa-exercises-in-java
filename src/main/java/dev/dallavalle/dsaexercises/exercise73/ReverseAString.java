@@ -1,4 +1,4 @@
-package dev.dallavalle.exercise73;
+package dev.dallavalle.dsaexercises.exercise73;
 
 import java.util.ArrayList;
 import java.util.List;

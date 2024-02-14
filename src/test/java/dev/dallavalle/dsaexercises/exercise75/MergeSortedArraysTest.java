@@ -1,11 +1,11 @@
-package dev.dallavalle.exercise75;
+package dev.dallavalle.dsaexercises.exercise75;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MergeSortedArraysTest {
     private MergeSortedArrays exercise75;
