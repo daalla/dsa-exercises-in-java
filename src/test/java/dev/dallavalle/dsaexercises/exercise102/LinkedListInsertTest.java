@@ -36,6 +36,12 @@ class LinkedListInsertTest {
     }
 
     @Test
+    void insert_InsertIndexIsZero_InsertsNodeAtTheBeginning() {
+        linkedList.insertValueByIndex(42, 0);
+        linkedList.printLinkedList();
+    }
+
+    @Test
     void printLinkedList_LinkedListWithManyValues_PrintsCorrectly() {
         linkedList.append(40);
         linkedList.append(50);
