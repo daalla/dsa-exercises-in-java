@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * ChatGPT's review of my solution: https://chat.openai.com/c/693e8f1f-8363-41dd-9ec5-df3299c0dbd8
+ * After finishing, I discovered that it breaks when inserting a value at index 0.
  */
 public class LinkedListInsert<T> {
     private Node<T> head;
