@@ -8,9 +8,9 @@ import java.util.List;
  * After finishing, I discovered that it breaks when inserting a value at index 0.
  */
 public class LinkedListInsert<T> {
-    private Node<T> head;
-    private Node<T> tail;
-    private long length;
+    protected Node<T> head;
+    protected Node<T> tail;
+    protected long length;
 
     private Node<T> nodeBeforeInsert;
     private Node<T> nodeAfterInsert;
@@ -26,7 +26,7 @@ public class LinkedListInsert<T> {
      * Space complexity: O(1)
      */
     public void insertValueByIndex(T value, long insertIndex) {
-        validate(insertIndex);
+        validateInsertIndex(insertIndex);
 
         if (insertIndex == length) {
             append(value);
@@ -38,7 +38,7 @@ public class LinkedListInsert<T> {
         insertNewNode(value);
     }
 
-    private void validate(long insertIndex) {
+    private void validateInsertIndex(long insertIndex) {
         if (!isValid(insertIndex)) {
             throw new IllegalArgumentException("The insert index is invalid");
         }
