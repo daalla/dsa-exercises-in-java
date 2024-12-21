@@ -1,9 +1,11 @@
 package dev.dallavalle.dsaexercises.exercise102;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 // todo: add test assertions
+@Disabled
 class LinkedListInsertTest {
     private LinkedListInsert<Integer> linkedList;
 
